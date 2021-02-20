@@ -1,0 +1,40 @@
+.infos {
+  display: flex;
+  align-items:center;
+}
+.data {
+  display: flex;
+  align-items:center;
+}
+.about p a{
+  color: blue;
+  text-decoration: none
+}
+
+.about{
+  min-width: 20vw;
+  max-width: 600px;
+  margin: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.example{
+  min-width: 30vw;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+}
+.reasons {
+  min-width: 30vw;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+}
+

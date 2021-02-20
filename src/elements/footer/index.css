@@ -1,0 +1,22 @@
+.footer {
+    width: 100vw;
+  }
+  
+.footer-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(101, 113, 138);
+    background-color: rgb(40, 44, 52);
+}
+.footer-footer button{
+    border: 0;
+    padding: 1%;
+    border-radius: 2px;
+    color: rgb(255,255,255);
+    background-color: rgb(33, 150, 243);
+}
+.footer-footer button:hover{
+    background-color: rgb(125, 193, 248);
+}
