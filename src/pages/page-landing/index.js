@@ -1,4 +1,5 @@
 import './App.css';
+import gif from '../../assets/Code.gif'
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
        </div>
          <div>
        <h2 className='example'>Exemplo</h2>
-       <img href='example.gif' alt='example.gif'></img>
+       <img src={gif} alt='example.gif'></img>
         </div>
        </div>
        <div className='data'>
