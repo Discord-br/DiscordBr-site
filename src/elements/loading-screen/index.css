@@ -1,0 +1,25 @@
+
+.loading-app {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    height: 68.6vh;
+}
+
+.loading{
+    width: 5rem;
+    height: 5rem;
+    border: 5px solid rgba(33, 149, 243, 0.267);
+    border-top-color: rgb(33, 150, 243);
+    border-radius: 50%;
+
+    animation: spin 2s linear infinite reverse;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

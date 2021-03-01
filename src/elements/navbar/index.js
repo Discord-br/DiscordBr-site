@@ -15,10 +15,10 @@ function NavBar() {
             <a href='/documentacao'>
                 Documentação
             </a>
-            <a href='https://google.com'>
+            <a href='https://github.com/Discord-br'>
                 Github
             </a>
-            <a href='https://google.com'>
+            <a href='https://discord.gg/9KA5D6PVVF'>
                 Ajuda
             </a>
         </ul>

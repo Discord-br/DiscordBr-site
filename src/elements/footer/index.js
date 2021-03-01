@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import './index.css';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 function footer() {
   const [theme, setTheme] = useState('light');
@@ -19,10 +19,6 @@ function footer() {
     }
   };
 
-  useEffect(() => {
-    const localTheme = window.localStorage.getItem('theme');
-    localTheme && setTheme(localTheme);
-  }, []);
   return (
     <div className="footer">
       <footer className="footer-footer">
@@ -30,7 +26,7 @@ function footer() {
         <text>Aqui tem potência com a API do Discord</text>
         <text>0 download, 2 star, 2 contribuição</text>
         <button onClick={() => toggleTheme()}>
-        {theme === 'light' ? <strong>desligar as luzes</strong> : <strong>ligar as luzes</strong>}
+        {theme === 'light' ? <strong>tema escuro 🕯 </strong> : <strong>tema claro 💡</strong>}
         </button>
       </footer>
     </div>
