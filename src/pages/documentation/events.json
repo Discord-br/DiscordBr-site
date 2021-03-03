@@ -1,0 +1,48 @@
+{
+    "0": {
+        "name": "Online",
+        "description": "Evento gerado a partir do momento que a aplicação está online",
+        "returns": {
+            "nome": "Nome do Client",
+            "hashtag": "Descriminador do client",
+            "id": "Id do client",
+            "verificado": "Retorna um Boolean se o bot é verificado ou não",
+            "email": "Retorna o email do client, só funciona com selfbot",
+            "bot": "Retorna um Boolean se o client é bot ou não",
+            "flags": "0",
+            "avatar": "Avatar do usuario"
+        }
+    },
+    "1": {
+        "name": "Message",
+        "description": "Evento gerado a partir do momento que o client vê uma mensagem nova",
+        "returns": {
+            "_client": "informações do CLient",
+            "tipo": "tipo da mensagem",
+            "criadoEM": "Data de Criação da mensagem",
+            "conteudo": "Conteudo da mensagem",
+            "servidorID": "Id do servidor que a mensagem foi enviada",
+            "canalID": "Id do canal que a mensagem foi enviada",
+            "id": "Id da mensagem",
+            "servidor": "servidor onde a mensagem foi enviada",
+            "autor": "Autor da mensagem",
+            "membro": "Membro da mensagem"
+        }
+    },
+    "2": {
+        "name": "MessageCreate",
+        "description": "Evento gerado a partir do momento que o client vê uma mensagem ser atualizada",
+        "returns": {
+            "_client": "informações do CLient",
+            "tipo": "tipo da mensagem",
+            "criadoEM": "Data de Criação da mensagem",
+            "conteudo": "Conteudo da mensagem",
+            "servidorID": "Id do servidor que a mensagem foi enviada",
+            "canalID": "Id do canal que a mensagem foi enviada",
+            "id": "Id da mensagem",
+            "servidor": "servidor onde a mensagem foi enviada",
+            "autor": "Autor da mensagem",
+            "membro": "Membro da mensagem"
+        }
+    }
+}

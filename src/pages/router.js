@@ -12,7 +12,8 @@ import { page_landing, documentation, NotFound} from './index';
         <Router>
             <Switch>
                 <Route exact path="/" component={page_landing} />
-                <Route path="/documentacao" component={documentation} />
+                <Route exact path="/documentacao" component={documentation} />
+                <Route path="/documentacao/:name" component={documentation} />
                 <Route component={NotFound} />
             </Switch>
       </Router>
