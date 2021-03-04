@@ -9,3 +9,7 @@
 .description{
     font-family: Arial, Helvetica, sans-serif;
 }
+.usage {
+    width: calc(40px + 20vw);
+    margin: 5%;
+}

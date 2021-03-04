@@ -7,12 +7,10 @@ function footer() {
   const r =  document.querySelector(':root');
   const toggleTheme = () => {
     if (theme === 'light') {
-      window.localStorage.setItem('theme', 'dark')
       r.style.setProperty('--background-color', 'rgb(0, 0, 0)');
       r.style.setProperty('--color', 'rgb(255,255,255)');
       setTheme('dark')
     } else {
-      window.localStorage.setItem('theme', 'light')
       r.style.setProperty('--background-color', 'rgb(255,255,255)');
       r.style.setProperty('--color', 'rgb(0, 0, 0)');
       setTheme('light')

@@ -2,21 +2,26 @@
     "0": {
         "name": "Online",
         "description": "Evento gerado a partir do momento que a aplicação está online",
-        "returns": {
-            "nome": "Nome do Client",
-            "hashtag": "Descriminador do client",
-            "id": "Id do client",
-            "verificado": "Retorna um Boolean se o bot é verificado ou não",
-            "email": "Retorna o email do client, só funciona com selfbot",
-            "bot": "Retorna um Boolean se o client é bot ou não",
-            "flags": "0",
-            "avatar": "Avatar do usuario"
+        "usage": "client.on('online', () => {})",
+        "properties": {
+            "nome": "/properties/nome",
+            "hashtag": "/properties/hashtag",
+            "id": "/properties/id",
+            "verificado": "/properties/verificado",
+            "email": "/properties/email",
+            "bot": "/properties/bot",
+            "flags": "/properties/flags",
+            "avatar": "/properties/avatar"
+        },
+        "methods": {
+
         }
     },
     "1": {
-        "name": "Message",
+        "name": "Mensagem",
         "description": "Evento gerado a partir do momento que o client vê uma mensagem nova",
-        "returns": {
+        "usage": "client.on('mensagem', () => {})",
+        "properties": {
             "_client": "informações do CLient",
             "tipo": "tipo da mensagem",
             "criadoEM": "Data de Criação da mensagem",
@@ -27,12 +32,16 @@
             "servidor": "servidor onde a mensagem foi enviada",
             "autor": "Autor da mensagem",
             "membro": "Membro da mensagem"
+        },
+        "methods": {
+
         }
     },
     "2": {
-        "name": "MessageCreate",
+        "name": "MensagemAtualizada",
         "description": "Evento gerado a partir do momento que o client vê uma mensagem ser atualizada",
-        "returns": {
+        "usage": "client.on('mensagem', () => {})",
+        "properties": {
             "_client": "informações do CLient",
             "tipo": "tipo da mensagem",
             "criadoEM": "Data de Criação da mensagem",
@@ -43,6 +52,9 @@
             "servidor": "servidor onde a mensagem foi enviada",
             "autor": "Autor da mensagem",
             "membro": "Membro da mensagem"
+        },
+        "methods": {
+
         }
     }
 }
